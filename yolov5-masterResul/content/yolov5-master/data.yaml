@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 8
+names: ['SP-30', 'SR-01', 'SR-05', 'SR-06', 'SR-07', 'SR-08', 'SR-10', 'SR-28']
+
+roboflow:
+  workspace: project
+  project: opciongrado
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/project/opciongrado/dataset/1
